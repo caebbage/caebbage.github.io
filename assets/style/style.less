@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+@bodyfontfam: 'Ubuntu', sans-serif;
+@bodyfontsize: ~"11px/15px";
+@bodyfont: @bodyfontsize @bodyfontfam;
+@font-face {font-family: "De Valencia"; src: url("font/De Valencia.otf");}
+@titlefontfam: 'De Valencia', sans-serif;
+@bodycol: #66666f;
+@boldcol: #22222f;
+@accentcol: #8888af;
+@accentcol2: #bbbbff;
+
+
+body {
+  font: @bodyfont;
+  background: #fcfcfc;
+  color: @bodycol;
+
+  h1 {color: @boldcol; font: 40px/70px @titlefontfam; margin: 0; border-bottom: 1px solid fade(@bodycol, 30%); text-align: right;
+  &::first-letter {color: @accentcol}}
+
+  h2 {
+    float: left;
+    margin: 0 5px 0 0;
+    color: @boldcol;
+    text-indent: -20px;
+  }
+
+  #wrapper {
+    max-width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+
+    b {color: @boldcol;}
+
+    hr {margin: 0 100px; border: none; border-bottom: 1px dotted fade(@bodycol, 30%);}
+
+    article {
+      padding: 20px;
+      text-align: justify;
+    }
+
+    #links {
+      text-align: center;
+
+      a.fa {font: 16px/16px fontAwesome;}
+      letter-spacing: 7px;
+    }
+
+    #navi {
+      position: absolute;
+      top: 65px;
+      left: 0; right: 0;
+      letter-spacing: 3px;
+
+      div {max-width: 500px; padding: 0 15px; margin: auto;}
+    }
+
+    blockquote {
+      background: #eeeeef;
+      padding: 5px;
+      margin: 5px 20px;
+    }
+  }
+
+  .bottom {
+    border-top: 1px solid fade(@bodycol, 30%);
+    padding: 5px;
+    text-align: right;
+  }
+}
+
+#tooltip {
+  background: @boldcol;
+  color: #eee;
+  margin: 10px 15px;
+  font: 10px/12px @bodyfontfam;
+  padding: 2px 5px;
+}
+
+a {
+  color: @accentcol;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: crosshair;
+  transition: color .5s;
+  text-align: center;
+
+  &:hover {
+    color: @accentcol2;
+  }
+}
+
+.fa::before {display:inline-block; text-align:center;}
