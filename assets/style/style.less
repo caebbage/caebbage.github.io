@@ -64,6 +64,20 @@ body {
     }
   }
 
+  ul, ol {
+    margin: 0;
+    padding: 0 30px;
+  }
+
+  .img {
+    width: 30px;
+    height: 30px;
+    background: #eee;
+    outline: 1px solid #fcfcfc; outline-offset: -2px;
+    display: inline-block;
+    border: 1px solid;
+  }
+
   .bottom {
     border-top: 1px solid fade(@bodycol, 30%);
     padding: 5px;
@@ -93,3 +107,44 @@ a {
 }
 
 .fa::before {display:inline-block; text-align:center;}
+
+
+table {
+  font: inherit;
+  width: 95%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #fcfcfc;
+
+  td {
+    padding: 3px;
+    border: 1px dotted @accentcol2;
+  }
+
+  &.h-title  > * > tr > td:first-child, &.v-title > * > tr:first-child > td {
+      background: @accentcol;
+      text-align: right;
+      color: #fcfcfc;
+      border: 1px solid @accentcol;
+  }
+
+  &.v-title > * > tr:first-child > td {text-align:center;}
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+
+  &-track {
+  }
+
+  &-thumb {
+    background: @accentcol;
+    border: 2px solid transparent;
+    background-clip: content-box;
+    border-radius: 999px;
+  }
+}
