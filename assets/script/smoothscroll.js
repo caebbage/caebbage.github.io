@@ -3,15 +3,35 @@ $(function() {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
 
-        var diff = Math.abs($('html,body').scrollTop() - target.offset().top);
+        var diff = Math.abs($(window).scrollTop() - target.offset().top);
         if (target.length) {
             $('html,body').animate({
-              scrollTop: target.offset().top
-            }, {duration: ((diff > 100) ? 700 : 200), easing: 'easeInOutCubic'});
+              scrollTop: target.offset().top - 10
+            }, {duration: (diff * 2), easing: 'easeInOutCubic'});
             return false;
         }
     });
 });
+
+var navbar, navtop;
+$(document).ready(function() {
+  try {
+    navbar = $("#navi");
+    navtop = navbar.offset().top;
+
+    $(window).scroll(function() {
+      if ($(window).scrollTop() >= navtop && (!navbar.hasClass("fixed"))) {
+        navbar.addClass("fixed");
+      } else if ((($(window).scrollTop()) <= navtop) && (navbar.hasClass("fixed"))) {
+        navbar.removeClass("fixed");
+      }
+    });
+
+  } catch (err) {
+    console.log("Objects missing.")
+  }
+});
+
 
 /*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
