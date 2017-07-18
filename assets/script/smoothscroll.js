@@ -14,10 +14,11 @@ $(function() {
 });
 
 var navbar, navtop;
+
 $(document).ready(function() {
   try {
     navbar = $("#navi");
-    navtop = navbar.offset().top;
+    navtop = 62;
 
     $(window).scroll(function() {
       if ($(window).scrollTop() >= navtop && (!navbar.hasClass("fixed"))) {
