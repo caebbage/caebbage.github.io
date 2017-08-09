@@ -1,4 +1,5 @@
 $(document).ready(function() {update();});
+
 $('#submit').on('click', function () {update();});
 
 
