@@ -1,92 +1,41 @@
 <!doctype html>
 <head>
-  <title>CAE | COMMISSIONS</title>
+  <title>commissions.</title>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link href="assets/style/style.less" rel="stylesheet/less">
-  <script src="assets/script/less.min.js"></script>
-  <script src="assets/script/smoothscroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+  <link href="assets/style/style.css" rel="stylesheet">
   <script src="assets/script/smt.js"></script>
+  <script src="assets/script/dark.js"></script>
+  <script src="assets/script/init.js"></script>
+  <link href="assets/favicon.png" rel="icon"  type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Commissions.</h1>
-    <div id="navi">
-      <div>
-        <a href="/" title="back to main?" class="fa fa-home fa-fw"></a>
-        <a href="#wrapper" title="top" class="fa fa-arrow-up fa-fw"></a>
-        <a href="#rules" title="rules" class="fa fa-list fa-fw"></a>
-        <a href="#art" title="samples" class="fa fa-image fa-fw"></a>
-        <a href="#cost" title="pricing" class="fa fa-usd fa-fw"></a>
-        <a href="#order" title="order form" class="fa fa-pencil-square-o fa-fw"></a>
-      </div>
-    </div>
-    <br >
-    <div id="links">
-      <a href="http://twitter.com/caebbage" title="twitter" class="fa fa-twitter"></a>
-      <a href="https://www.instagram.com/caebbage" title="instagram" class="fa fa-instagram"></a>
-      <a href="http://github.com/caebbage" title="github" class="fa fa-github-alt"></a>
-      <a href="https://www.youtube.com/channel/UCy3JHV4GGSSfh_XAi8j8D4w" title="youtube" class="fa fa-youtube-play"></a>
-      <a href="https://www.twitch.tv/caebbage" title="twitch" class="fa fa-twitch"></a></div>
-    </article><br>
-    <hr />
-    <article id="rules">
-      <h2>Rules.</h2> aka the terms of service.
-      <br><br>
-      <ul>
-        <li><b>I have a right to decline your commission.</b> It usually comes down to concerns I won't be able to draw the subject well.
-        <ul><li><b>Won't do:</b> mechas, anthros (kemonomimi ok), nsfw, real people</li></ul></li>
-        <li>Payment is exclusively through <b>Paypal</b> in <b>USD</b>. An invoice will be sent to your account once the commission is accepted. There may be a bit added to cover paypal's fees.</li>
-        <li><b>Once paid, the commission cannot be cancelled unless by me.</b> This is to discourage cancelling the commission while I'm in the middle of working on it. I will refund in the case of cancellations.</li>
-        <li><b>Please be patient!</b> I have other things to do than just drawing and on some days I simply won't be able to complete a commission well.
-          <ul><li>If you are concerned about commission progress, <b>please do not bother me every single day</b> about it. Constant nagging makes me want to complete it less, and I may cancel altogether.</li></ul></li></li>
-          <li><b>Commissioned pieces are non-commercial.</b> The art itself still belongs to me, and I may use it for other purposes later on (hint: more samples). If you actually do want to use it commercially, speak to me on discord.</li>
-        </ul>
-      </article>
-      <hr />
-      <article id="art">
-        <h2>Samples.</h2> Will be updated occasionally.
-        <br><br>
-        <div style="display:flex;justify-content:center;"><div style="display:inline-block;">
-          <a href="https://files.catbox.moe/6zoh48.png" target="_blank" title="bust sketch"><div class="img" style="background:url('https://files.catbox.moe/6zoh48.png') 58% 30%; background-size: 400%;"></div></a>
-          <a href="https://pbs.twimg.com/media/C2MYi1xUUAAk1f1.jpg" target="_blank" title="bust colored sketch"><div class="img" style="background:url('https://pbs.twimg.com/media/C2MYi1xUUAAk1f1.jpg') 58% 25%; background-size: 600%;"></div></a>
-          <a href="https://pbs.twimg.com/media/DEHSt8BW0AAJmPX.jpg" target="_blank" title="bust painted"><div class="img" style="background:url('https://pbs.twimg.com/media/DEHSt8BW0AAJmPX.jpg') 63% 25%; background-size: 600%;"></div></a>
-          <br>
-          <a href="http://i.imgur.com/f5wMDpV.png" target="_blank" title="half-body colored sketch"><div class="img" style="background:url('http://i.imgur.com/f5wMDpV.png') 53% 16%; background-size: 1200%;"></div></a>
-          <a href="https://pbs.twimg.com/media/DBbzDktXcAAN-aK.jpg" target="_blank" title="half-body painted"><div class="img" style="background:url('https://pbs.twimg.com/media/DBbzDktXcAAN-aK.jpg') 53% 14%; background-size: 1200%;"></div></a>
-          <a href="https://pbs.twimg.com/media/DBkZDQpWAAUfLun.png" target="_blank" title="half-body painted"><div class="img" style="background:url('https://pbs.twimg.com/media/DBkZDQpWAAUfLun.png') 53% 14%; background-size: 1200%;"></div></a>
-          <br>
-          <a href="https://pbs.twimg.com/media/DEVue1eXkAAecI1.png" target="_blank" title="full-body painted"><div class="img"style="background:url('https://pbs.twimg.com/media/DEVue1eXkAAecI1.png') 50% 10%; background-size: 1200%;"></div></a>
-          <a href="https://pbs.twimg.com/media/DConsJLUwAAafio.png" target="_blank" title="full-body painted"><div class="img"style="background:url('https://pbs.twimg.com/media/DConsJLUwAAafio.png') 50% 10%; background-size: 1200%;"></div></a>
-          <div class="img" title="nothing here. it is a sad day"></div>
-        </div></div>
-      </article>
-      <hr>
-      <article id="cost">
-        <h2>Pricing.</h2> In USD.
-        <br><br>
-        <table class="h-title v-title">
-          <tr><td></td><td>sketch<td>colored sketch</td><td>painted</td></tr>
-          <tr><td>bust</td><td>$7<td>$18</td><td>$25</td></tr>
-          <tr><td>half-body</td><td>$10</td><td>$25<td>$40</td></tr>
-          <tr><td>full-body</td><td>$25</td><td>$45<td>$60</td></tr>
-        </table>
-        <br>
-        Extra costs may apply if the design given, props desired, and/or background are excessively complex. You will be told so before the commission is confirmed if this is the case.
-
-      </article>
-      <hr>
-      <article id="order">
-        <h2>Order form.</h2> Please send this in through <a href="http://twitter.com/caebbage" title="@caebbage">twitter</a> or <b title="cae#0442">Discord</b>.
-        <br><br>
-        <blockquote>
-          <b>Name:</b> What I should refer to you by.<br>
-          <b>Paypal:</b> The email address I should send the invoice to.<br>
-          <b>Reference:</b> Please provide an image. I am more likely to decline otherwise.<br>
-          <b>Comments:</b> Anything else you want to say/mention goes here. This would be a good place to mention something like a particular coloring style, pose, etc.
-        </blockquote>
-      </article>
-      <div class="bottom">thank you for visiting.</div>
-    </div>
-  </body>
-  </html>
+  <div id="barba-wrapper">
+    <span>
+      <button id="lights" title="hello!" style="font-family: sans-serif">✦</button>
+      <ul role="navigation">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="scripts.html">scripts</a>
+        </li>
+        <li>
+          <a href="gallery.html">gallery</a>
+        </li>
+        <li>
+          <a href="comm.html">commission</a>
+        </li>
+        <li>
+          <a href="sites.html">sites</a>
+        </li>
+      </ul>
+    </span>
+    <section class="barba-container">
+      tba.
+    </section>
+  </div>
+</body>
+</html>

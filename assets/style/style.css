@@ -1,0 +1,132 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu|Muli';
+@import 'https://use.fontawesome.com/releases/v5.0.6/css/all.css';
+@import 'https://fonts.googleapis.com/earlyaccess/mplus1p.css';
+
+body {
+  margin: 0;
+  font: 12px/150% 'Ubuntu', 'Mplus 1p', sans-serif;
+  background: #eee;
+  color: #444;
+  transition: background .5s, color .5s;
+}
+
+.dark {
+  background: #222;
+  color: #bbb;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #8ea4af;
+  transition: color .5s;
+}
+
+b {
+  color: #baac7a;
+}
+
+a:hover {
+  color: #baac7a;
+}
+
+blockquote {
+  background: rgba(127,127,127,0.1);
+  margin: 0;
+  padding: 1em;
+}
+
+ul.links {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+
+ul.links li {
+  display: inline-block;
+  padding: 0 .25em;
+}
+
+
+#barba-wrapper {
+  padding: 2em 0;
+  width: 70%;
+  min-width: 300px;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin: auto;
+  position: relative;
+}
+
+[role='navigation'] {
+ padding: 0;
+ list-style: none;
+ text-align: center;
+ display: inline-block;
+ margin: 0;
+}
+
+.grid-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.grid-list li {
+  padding: 1.5em;
+  width: 80px;
+}
+
+.grid-list li a:first-child {
+  margin: 0 .5em 0 0;
+}
+
+[role='navigation'] li {
+   display: inline-block;
+   padding: 0 5px;
+}
+
+.barba-container {
+  border-top: 1px dashed;
+  padding: .5em 0 0;
+  margin: .5em 0 0;
+  padding: 1em;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed;
+  margin: 1em -1em;
+}
+
+#lights {
+  background: none;
+  padding: 0;
+  border: 0;
+  text-shadow: 0 0 0 transparent;
+  transition: text-shadow .5s;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+}
+
+#lights:focus {outline: none;}
+
+#lights:hover {text-shadow: 0px 0px 5px #abc;}
+
+#tooltip {
+  background: #222;
+  color: #ddd;
+  padding: 0 4px;
+  margin: 5px 10px;
+}
+
+.dark #tooltip {
+  background: #ddd;
+  color: #222;
+}
