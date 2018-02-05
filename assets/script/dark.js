@@ -1,7 +1,7 @@
 
 
 $(document).ready(function () {
-  if (Cookies.get('dark')) {
+  if (Cookies.get('dark') === 1) {
       $('body').addClass('dark');
   }
 
