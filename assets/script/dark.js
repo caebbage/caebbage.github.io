@@ -1,17 +1,17 @@
 
 
 $(document).ready(function () {
-  if (Cookies.get('dark') == true) {
+  if (Cookies.get('dark')) {
       $('body').addClass('dark');
   }
 
   $('#lights').on('click', function () {
     if ($('body').hasClass('dark')) {
       $('body').removeClass();
-      Cookies.set('dark', false, {expires: 90})
+      Cookies.remove('dark');
     } else {
       $('body').addClass('dark');
-      Cookies.set('dark', true, {expires: 90})
+      Cookies.set('dark', 'why are you looking at this?', {expires: 90})
     }
   });
 });

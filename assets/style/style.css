@@ -1,6 +1,6 @@
-@import 'https://fonts.googleapis.com/css?family=Ubuntu|Muli';
-@import 'https://use.fontawesome.com/releases/v5.0.6/css/all.css';
-@import 'https://fonts.googleapis.com/earlyaccess/mplus1p.css';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Muli');
+@import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+@import url('https://fonts.googleapis.com/earlyaccess/mplus1p.css');
 
 body {
   margin: 0;
@@ -123,10 +123,122 @@ hr {
   background: #222;
   color: #ddd;
   padding: 0 4px;
-  margin: 5px 10px;
+  margin: 20px;
+  position: absolute;
+  transition-property: opacity;
+  transition-duration: 0.3s;
 }
 
 .dark #tooltip {
   background: #ddd;
   color: #222;
+}
+
+.gallery h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.gallery h3::before, .gallery h3::after {
+  content: '';
+  border-top: 1px solid;
+  width: 20px;
+  display: inline-block;
+  margin: 0.25em 3px;
+}
+
+.gallery-cont {
+  display: flex;
+  flex-flow: row wrap;
+  width: fit-content;
+  justify-content: center;
+  margin: auto;
+}
+
+.gallery-cont img {
+  margin: 5px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .5s;
+}
+
+.modal-contents {
+  padding: 10px;
+  border: 1px;
+}
+
+.modal-desc {
+  width: 30vw;
+  height: 100vh;
+  background: #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+  transition: all .5s;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .modal-wrapper {
+    flex-direction: column-reverse;
+    align-content: stretch;
+  }
+  .modal-desc {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: fit-content;
+    width: 100vw;
+  }
+
+  .modal-contents {
+    margin-bottom: 20vh;
+  }
+
+  .modal-contents img {
+    max-height: 200vh;
+    max-width: 200vw;
+  }
+}
+
+.modal-desc h1 {
+  font: 200%/100% 'Muli', sans-serif;
+  margin: .25em 0;
+}
+
+.modal-desc:not(.active) {display:none;}
+
+.modal-contents img {
+  max-height: 100vh;
+  max-width: 100vw;
+  padding: 20px;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.modal-leave {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 300%;
+  color: #eee;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.modal-wrapper:not(.active) {
+  opacity: 0;
+  pointer-events: none;
 }
