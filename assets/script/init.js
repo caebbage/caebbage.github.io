@@ -1,3 +1,5 @@
+
+
 var FadeTransition = Barba.BaseTransition.extend({
   start: function() {
     /**
@@ -62,4 +64,4 @@ Barba.Pjax.getTransition = function() {
   return FadeTransition;
 };
 
-$(document).ready(() => {Barba.Pjax.start();})
+$(document).ready(() => {Barba.Pjax.start();gallery.init();})
