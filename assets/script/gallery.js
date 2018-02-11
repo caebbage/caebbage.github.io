@@ -56,5 +56,3 @@ const gallery = {
     }
   }
 }
-
-$(document).ready(function () {gallery.init(); tip.load();})
