@@ -11,7 +11,7 @@ $(document).ready(function () {
       Cookies.remove('dark');
     } else {
       $('body').addClass('dark');
-      Cookies.set('dark', 'why are you looking at this?', {expires: 90})
+      Cookies.set('dark', 'why_are_you_looking_at_this?', {expires: 90})
     }
   });
 });

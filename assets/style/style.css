@@ -191,6 +191,10 @@ hr {
   z-index: 2;
 }
 
+.dark .modal-desc {
+  background: #333;
+}
+
 @media (max-width: 600px) {
   .modal-wrapper {
     flex-direction: column-reverse;
