@@ -1,5 +1,9 @@
 const gallery = {
   img: {
+    y16: [
+      '161116',
+      '161210'
+    ],
     y17: [
       '170315',
       '170726',
@@ -20,14 +24,13 @@ const gallery = {
   },
   timestamp: function (i) {
     let parts = i.match(/.{1,2}/g);
-    return (parts[1] + ' ' + parts[2] + ' ' + parts[0])
+    return (parts[1] + ' - ' + parts[2] + ' - ' + parts[0])
   },
   init: function () {
+    $('.barba-container .gallery').html('');
     for (let k in this.img) {
       $('.barba-container .gallery').append(
-        '<h3>' +
-        (k).replace('y', '20') +
-        '</h3>' +
+        '<h3>' + (k).replace('y', '20') + '</h3>' +
         '<div class="gallery-cont" id="' + k + '"></div>'
       );
       this.img[k].forEach((i) => {

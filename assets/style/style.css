@@ -226,10 +226,14 @@ hr {
 
 .modal-contents img {
   max-height: 100vh;
-  max-width: 100vw;
+  max-width: 70vw;
   padding: 20px;
   box-sizing: border-box;
   pointer-events: none;
+}
+
+:not(.active) + .modal-contents img {
+  max-width: 100%;
 }
 
 .modal-leave {
@@ -240,6 +244,7 @@ hr {
   color: #eee;
   cursor: pointer;
   z-index: 3;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 
 .modal-wrapper:not(.active) {
