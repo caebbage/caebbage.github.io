@@ -1,0 +1,14 @@
+<!doctype html>
+<head>
+  <script>
+    window.onload = function () {
+      let h = window.location.hostname
+      let q = window.location.pathname.replace(/\//g, '')
+      window.location.replace('https://' + h + '/?page=' + q);
+    }
+  </script>
+</head>
+<body style="font-family: sans-serif">
+  Redirecting...
+</body>
+</html>
