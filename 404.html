@@ -1,14 +1,53 @@
-<!doctype html>
 <head>
-  <script>
-    window.onload = function () {
-      let h = window.location.hostname
-      let q = window.location.pathname.replace(/\//g, '')
-      window.location.replace('https://' + h + '/?page=' + q);
-    }
-  </script>
-</head>
-<body style="font-family: sans-serif">
-  Redirecting...
+    <meta charset="utf-8">
+    <title>MMTN</title>
+    <base href="./assets/">
+    <link rel="favicon" type="image/png" href="favicon.png">
+    <meta name="description" content="Artist, web programmer, and bird lover.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.transit.min.js"></script>
+    <script src="barba.min.js"></script>
+    <script src="js.cookies.min.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="logo">
+          <h1>
+            <span>mmt<span style="color: #955">n</span>
+          </span></h1>
+          <br>
+          artist, programmer, and bird lover.
+        </div>
+        <nav>
+        <ul>
+          <li>
+            <a href="/" id="home">home.</a>
+          </li>
+          <li>
+             <a href="/tos" id="tos">terms.</a>
+          </li>
+          <li>
+            <a href="/sample" id="sample">samples.</a>
+          </li>
+          <li>
+            <a href="/form" id="form">form.</a>
+          </li>
+          <li>
+            <a href="/social" id="social">social.</a>
+          </li>
+          <li id="switch">
+            <i class="fas fa-sun"></i>
+          </li>
+        </ul>
+        </nav>
+      </header>
+      <article class="content active"><p>This page doesn't exist!
+</p></article> 
+    </div>
+  
+  <script src="navigation.js"></script>
 </body>
-</html>

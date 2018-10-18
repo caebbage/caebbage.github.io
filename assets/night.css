@@ -1,0 +1,20 @@
+body {
+  background: #222;
+  color: #ddd;
+}
+
+nav ul li a {
+  background: #ddd;
+  color: #222;
+}
+
+nav ul li a:hover {
+  color: #222;
+  background: #999;
+}
+
+textarea {
+  background: #555;
+  color: #eee;
+  border: none;
+}
