@@ -3,6 +3,8 @@ body {
   color: #ddd;
 }
 
+blockquote {background: #444}
+
 nav ul li a {
   background: #ddd;
   color: #222;
