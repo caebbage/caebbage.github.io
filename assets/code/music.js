@@ -4,7 +4,7 @@
 // danku
 
 
-var structure = '<div class="controls"> <i class="play fas fa-play-circle fa-fw"></i> <i class="pause fas fa-pause-circle-o fa-fw"></i> <i class="load fas fa-refresh fa-spin fa-fw"></i> <i class="error fas fa-exclamation-triangle fa-fw"></i></div><div class="time"> <span class="curr">00:00</span>/<span class="full">00:00</span></div><div class="scrubber"><div class="progress"></div><div class="scrub"></div></div><div class="errmessage">Oops! Something went wrong.</div></div>';
+var structure = '<div class="controls"><i class="play fas fa-play-circle fa-fw"></i><i class="pause fas fa-pause-circle fa-fw"></i><i class="load fas fa-sync fa-spin fa-fw"></i><i class="error fas fa-exclamation-triangle fa-fw"></i></div><div class="time"></div><span class="curr">00:00</span>/<span class="full">00:00</span></div><div class="scrubber"><div class="progress"></div><div class="scrub"></div></div><div class="errmessage">Oops! Something went wrong.</div></div>';
 var hasScrub = true;
 var hasStamp = true;
 
