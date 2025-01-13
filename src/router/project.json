@@ -33,7 +33,7 @@
         "desc": "Screen-wipe scene transition effect, created via shader + script rather than unity animation."
       },
       {
-        "url": "shaders4.gif",
+        "url": "shader4.gif",
         "desc": "The outdoor scene, utilizing a custom sky shader + a custom post-processing shader, as demonstrated here."
       },
       {

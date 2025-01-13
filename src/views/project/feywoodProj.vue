@@ -66,7 +66,7 @@ In addition, I created custom script shaders to handle scene transitions as well
 <section class="gallery-group">
   <gallery-item image="/src/assets/image/project/feywood/shader3.gif" desc="Custom sky shader with a dynamic color gradient." />
   <gallery-item image="/src/assets/image/project/feywood/shader4.gif" desc="Custom post-processing shader to give a subtle gradient glow." />
-  <gallery-item image="/src/assets/image/project/feywood/shader5.png" desc="Modified shader to allow character visibility while behind objects." />
+  <gallery-item image="/src/assets/image/project/feywood/shader5.PNG" desc="Modified shader to allow character visibility while behind objects." />
 </section>
 
 <section class="gallery-group">
