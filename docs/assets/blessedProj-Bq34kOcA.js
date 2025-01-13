@@ -1,4 +1,4 @@
-import{c as o,a as t,w as n,_ as a,b as s,d as r,o as d,e as i}from"./index-BINY06mQ.js";const m={id:"project"},l={class:"gallery-group"},h={__name:"blessedProj",setup(g){return(u,e)=>(d(),o("main",m,[t(a,{class:"intro"},{default:n(()=>e[0]||(e[0]=[s(`\r
+import{c as o,a as t,w as n,_ as a,b as s,d as r,o as d,e as i}from"./index-BO2vWSif.js";const m={id:"project"},l={class:"gallery-group"},h={__name:"blessedProj",setup(g){return(u,e)=>(d(),o("main",m,[t(a,{class:"intro"},{default:n(()=>e[0]||(e[0]=[s(`\r
 # WE BLESSED FEW\r
 \r
 Team of 11 people, made during **Ludum Dare 55: Summoning** in under 72 hours.\r

@@ -1,4 +1,4 @@
-import{c as o,a,w as s,_ as i,b as t,d as r,o as l,e as n}from"./index-BINY06mQ.js";const g={id:"project"},d={class:"adjacent"},u={class:"gallery-group"},m={class:"gallery-group"},p={class:"gallery-group"},f={class:"gallery-group"},y={__name:"quingsteryProj",setup(c){return(h,e)=>(l(),o("main",g,[a(i,{class:"intro"},{default:s(()=>e[0]||(e[0]=[t(`\r
+import{c as o,a,w as s,_ as i,b as t,d as r,o as l,e as n}from"./index-BO2vWSif.js";const g={id:"project"},d={class:"adjacent"},u={class:"gallery-group"},m={class:"gallery-group"},p={class:"gallery-group"},f={class:"gallery-group"},y={__name:"quingsteryProj",setup(c){return(h,e)=>(l(),o("main",g,[a(i,{class:"intro"},{default:s(()=>e[0]||(e[0]=[t(`\r
 # QUINGSTERY DUNGEON\r
 \r
 Adventure as a quingee and make your way to the apex of Galinn's Peak!\r
