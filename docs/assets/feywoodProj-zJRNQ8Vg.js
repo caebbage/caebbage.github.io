@@ -1,4 +1,4 @@
-import{c as s,a as o,w as i,_ as n,b as t,d as r,o as l,e as a}from"./index-BO2vWSif.js";const d={id:"project"},h={class:"gallery-group"},m={class:"gallery-group"},c={class:"gallery-group"},w={__name:"feywoodProj",setup(u){return(g,e)=>(l(),s("main",d,[o(n,{class:"intro"},{default:i(()=>e[0]||(e[0]=[t(`\r
+import{c as s,a as o,w as i,_ as n,b as t,d as r,o as l,e as a}from"./index-Ttwsvxux.js";const d={id:"project"},h={class:"gallery-group"},m={class:"gallery-group"},c={class:"gallery-group"},w={__name:"feywoodProj",setup(u){return(g,e)=>(l(),s("main",d,[o(n,{class:"intro"},{default:i(()=>e[0]||(e[0]=[t(`\r
 # FEYWOOD\r
 \r
 _FEYWOOD_ is a narrative-focused puzzle platformer game demo. It's your first day at your new home-- what you and your sister don't know, is that beyond the forest border lay things you could never imagine...\r

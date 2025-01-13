@@ -1,4 +1,4 @@
-import{c as r,d as i,b as t,a,w as n,_ as s,o as l,e as o}from"./index-BO2vWSif.js";const h={id:"project"},d={class:"gallery-group"},u={class:"gallery-group"},p={__name:"caebeanProj",setup(c){return(g,e)=>(l(),r("main",h,[e[9]||(e[9]=i("section",{class:"intro"},[i("h1",null,"CAEBEAN.NET"),t(),i("p",null,"A portfolio site project.")],-1)),e[10]||(e[10]=t()),a(s,{style:{"max-width":"500px",margin:"auto"}},{default:n(()=>e[0]||(e[0]=[t(`\r
+import{c as r,d as i,b as t,a,w as n,_ as s,o as l,e as o}from"./index-Ttwsvxux.js";const h={id:"project"},d={class:"gallery-group"},u={class:"gallery-group"},p={__name:"caebeanProj",setup(c){return(g,e)=>(l(),r("main",h,[e[9]||(e[9]=i("section",{class:"intro"},[i("h1",null,"CAEBEAN.NET"),t(),i("p",null,"A portfolio site project.")],-1)),e[10]||(e[10]=t()),a(s,{style:{"max-width":"500px",margin:"auto"}},{default:n(()=>e[0]||(e[0]=[t(`\r
 **Skills applied:** Web design & development (HTML, CSS, Node.JS, Vue3)\r
 \r
 **Credits:**\r

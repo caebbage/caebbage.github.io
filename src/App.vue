@@ -84,8 +84,8 @@ header {
 }
 
 #site-title svg {
-  height: 2rem;
-  width: 2rem;
+  height: clamp(0.5rem, 5vw, 2rem);
+  width: clamp(0.5rem, 5vw, 2rem);
   margin: .25rem 0 -.25rem;
 }
 
@@ -97,13 +97,18 @@ header {
 header #site-title a {
   color: var(--accent);
   text-decoration: none;
-  font: 700 2rem/125% "Poppins", sans-serif;
+  font: 700 2rem/2.5rem "Poppins", sans-serif;
+  font-size: clamp(0.5rem, 5vw, 2rem);
   margin: 0;
 }
 
 header #site-title a:hover {
   background: none;
   color: var(--text-bold);
+}
+
+#nav-right {
+  white-space: nowrap;
 }
 
 #nav-right button {
@@ -158,5 +163,21 @@ section {
   opacity: 0;
 }
 
-@media (min-width: 1024px) {}
+@media (max-width: 500px) {
+  .page-container {
+    padding: 0.5rem;
+  }
+
+  .intro {
+    padding: 2.5rem 0 1.5rem;
+  }
+
+  .intro h1 {
+    font-size: clamp(1rem, 10vw, 4rem);
+  }
+}
+
+@media (max-width: 300px) {
+  #site-title svg {display: none;}
+}
 </style>

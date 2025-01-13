@@ -66,4 +66,10 @@ import charas from '@/router/chara.json'
  font: 700 18px/40px 'Poppins', sans-serif;
  height: 40px; width: 80px;
 }
+
+@media (max-width: 500px) {
+  .chara-list:last-child {
+    flex-flow: row wrap;
+  }
+}
 </style>
