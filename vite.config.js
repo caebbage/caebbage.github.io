@@ -22,7 +22,9 @@ export default defineConfig({
     vueDevTools(),
   ],
   build: {
-    target: 'esnext'
+    target: 'esnext',
+    outDir: 'docs',
+    emptyOutDir: true, // also necessary
   },
   resolve: {
     alias: {

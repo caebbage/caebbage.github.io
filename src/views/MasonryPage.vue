@@ -4,7 +4,11 @@
       <h1>{{ title }}</h1>
       <p v-html="desc"></p>
     </section>
-    <masonry-wall :items="loadedItems.length == items.length ? loadedItems : []" :min-columns="1" :max-columns="$route.name == 'sketch' ? 2 : 3" :column-width="300" :gap="16">
+    <div class="loading" v-if="loadedItems.length !== items.length">
+      <i class="fa-solid fa-fw fa-spinner fa-spin-pulse"></i>
+      <span>Loading...</span>
+    </div>
+    <masonry-wall v-else :items="loadedItems" :min-columns="1" :max-columns="$route.name == 'sketch' ? 2 : 3" :column-width="300" :gap="16">
       <template #default="{ item }">
         <gallery-item :image="`./src/assets/image/${item.url}`" :desc="item.desc" :disable-flex="true">
         </gallery-item>
@@ -12,6 +16,20 @@
     </masonry-wall>
   </main>
 </template>
+
+<style>
+.loading {
+  font: 1rem/100% Ubuntu, sans-serif;
+  color: var(--text-2);
+  text-align: center;
+  transition: var(--trans);
+}
+.loading i {
+  font-size: 5rem;
+  display: block;
+  margin: 0 auto 1rem;
+}
+</style>
 
 <script setup>
 import MasonryWall from '@yeger/vue-masonry-wall';
