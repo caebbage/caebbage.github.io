@@ -1,0 +1,38 @@
+{
+  "name": "April 7th",
+  "alt": "???",
+  "subtitle": "Freischütz",
+  "color": "#edca00",
+  "basics": {
+    "age": "21",
+    "ethnicity": "Chinese",
+    "gender": "Female",
+    "pronouns": "she/her",
+    "height": "5'1\" / 155cm",
+    "build": "average",
+    "MBTI": "ISTP",
+    "Enneagram": "3w4 / 368",
+    "Tarot": "XX - Judgement"
+  },
+  "stats": {
+    "STR": 0.3,
+    "DEX": 0.9,
+    "CON": 0.3,
+    "INT": 0.8,
+    "WIS": 0.4,
+    "CHR": 0.3
+  },
+  "desc": "There are many words to call April 7th. Among them: *bottom feeder, leech, criminal.* Badges she's earned, of course-- you see, it's one thing to be a basement dwelling college dropout, but it's another to spend your time scamming others online to pay for videogame addictions. Aren't you ashamed of yourself, dear? Don't you feel your sins crawling on your skin? Are you too far addicted to stop, now?\n\nIt's okay. Repentance can be found in another `WORLD`.",
+  "gallery": [
+    {
+      "icon": "april/QoW-icon.jpg",
+      "url": "chara/april/QoW.jpg",
+      "desc": "Outfit for Queen of Wands event. (2023)"
+    },
+    {
+      "icon": "april/newapril-icon.jpg",
+      "url": "chara/april/newapril.jpg",
+      "desc": "Jellyfish-inspired redesign after traumatic events. (2023)"
+    }
+  ]
+}

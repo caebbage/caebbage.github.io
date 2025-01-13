@@ -1,0 +1,76 @@
+<template>
+  <main id="project">
+    <section class="intro">
+      <h1>CAEBEAN.NET</h1>
+      <p>A portfolio site project.</p>
+    </section>
+    <md-block style="max-width: 500px; margin: auto">
+**Skills applied:** Web design & development (HTML, CSS, Node.JS, Vue3)
+
+**Credits:**
+- [Vue3](https://vuejs.org/) with [Vue Router](https://router.vuejs.org/)
+- [vue3-carousel](https://vue3-carousel.ismail9k.com/)
+- [vue-masonry-wall](https://vue-masonry-wall.yeger.eu/)
+- [js-cookie](https://github.com/js-cookie/js-cookie/) (for memory of dark/light mode)
+- [markdown-it](https://markdown-it.github.io/) (for easier editing of pages, like the one you're on now :))
+    </md-block>
+    <md-block>
+## **THE DESIGN PROCESS: functionality meets style**
+
+I came into this project with a couple things in mind:
+
+* **FUNCTION:** The purpose of this website is to showcase my work– given my broad skillset, just one sort of format wouldn’t suffice, so I wanted different page structures that suited my different needs, while still seeming a part of the same site.
+* **CUSTOMIZATION:** I had previously made a webpage using a site builder for these purposes, but its feature set left a lot for me to desire, and because I was working with a site builder rather than code, the features that simply did not meet my needs or were outright broken were not things I could fix. This frustrated me a great deal– I wanted to create something that was streamlined to serve *my* needs.
+* **STYLE:** I wanted something sleek but also simple; something clean that could house all of the work I wanted to showcase in a presentable manner, and in and of itself be something to showcase. Though one could make a sight more flashy for ostentation, I sought for something that expressed my own tastes– elegant and straight forward. Since this was a portfolio site, I didn’t want any particular page to be difficult for someone walking in to visually parse.
+* **MOBILE-COMPATIBILITY:** Though this website was made for desktop, having it be reactive and functional within mobile contexts was important to me as well. I wanted the presentation to still be viewable from a phone, and wanted to avoid important features being obfuscated behind desktop-only functions such as hover. This serves to keep me mindful of the overall structure as something that can be digestible across platforms.
+* **FLOW:** Navigational flow in particular was a concern of mine. I wanted navigating around the page to be intuitive and not require a large number of clicks. In conjunction with concerns of mobile compatibility, I wanted to avoid layouts that required popup menus.
+* **SIMPLICITY:** Despite using Vue.js as a framework to create the application, I wanted the design to rely less on scripting where possible, and to utilize the power of HTML and CSS efficiently. Naturally, some additional scripting would be needed, for example for the image popup modals; despite this, I wanted interactivity to be powered by styling rather than code where possible, as I felt it would lead to a more lightweight result.
+
+With these in mind, I created sketches to plan out how I wanted the site to look. The navigation was the main thing of import to me– after all, it is something that would frame the entire website and be the means through which others travel through it. Hence, it needed to quickly and intuitively make sense and feel visible.
+
+The next point of concern was the projects page– I had a basis for it from my previous site, but I wanted something that would quickly showcase snapshots of the project in mind while also providing an overview of the content. In scripting I’d considered having an alternating format, with the gallery alternating with which side it sat on, but ended up discarding this idea due to visual clutter: even if the design choice can be good for creating visual interest, it conflicted with visual clarity.
+
+The last major concern was the characters page– a little bonus I wanted to add to make the project more fun for me, and also to have a space to be more experimental with the layout of things. I’d made a character page for a previous iteration of my personal site which is why the sketch is rather rough, but I was hoping for something a little cleaner, and easier to put together– for example, my original site, the character in the background was faded out via the actual file data, so I wanted to use a mask-image instead this time, to be more adjustable.
+    </md-block>
+    <section class="gallery-group">
+      <gallery-item image="/src/assets/image/project/caebean/site1.jpg" desc="Planning diagrams for site structure." />
+      <gallery-item image="/src/assets/image/project/caebean/site2.jpg" desc="Planning diagrams for the projects page list." />
+      <gallery-item image="/src/assets/image/project/caebean/site3.jpg" desc="Planning diagrams for the character display." />
+    </section>
+<md-block>
+## **BUILDING A WEBSITE: bringing the page to life**
+
+I had a general plan of attack to the order in which I approached each different components of the website.
+
+* **Navigation & Routing:** The navigation is not only the means through which people move around the website to see its content, but also what frames the website as a whole. Therefore, before anything else got done, I wanted to create the container in which everything would sit. Because I’m creating a single-page application through Vue3, routing was also a concern; how do I hook up the routes in a way that will encompass everything I want, while also not requiring much effort to adjust when I want to bring in, say, new projects to the list?
+* **Initial visual design:** Function comes first. But Still, I wanted the website to look and *feel* good when you moved around it– hence, after getting the navigation working at all, I wanted to set the stage for the design of the website itself, choosing out which fonts I wanted to use and where, and establishing the main colors to be used across the page through variables. A good setup for this was also important, because I wanted to have a toggleable light/dark mode visual design, and for that I wanted intuitive variable design that could be replaced for each other with ease.
+* **The art pages:** This would be the easiest to set up: pages which displayed different galleries of images within a masonry format. Because I’d found a plugin for this purpose already, the concern would not be in getting the structure itself together, but for the containing elements for the images: I wanted the images to be shown fullscreen with an extended description on-click, but because modals were such a simple component, also wanted to avoid adding another plugin library to the project when I could make one myself. This image container I wanted to also be reusable across other aspects of my site, such as the carousel for the projects lists plus for the character image galleries. Hence, tackling this first would be relatively simple, but also get a key component done in the process as well.
+* **The projects list:** For the projects themselves, I wanted a simple, unique article page, but for the projects list, I wanted a relatively regular format in which they were listed, and hence a new component template. Since I was replicating a setup I had done before, the visualization aspect was pretty easy. The main concern was instead the carousel that I wanted to go along with the projects, and how to make it work correctly. The folio site I had made in the website builder had an issue with broken image scaling that did not properly fit the display and also did not allow for fullview, so this was something I wanted to fix in my own version of the site.
+* **The characters page:** This was a standalone part of the site that required no outside modules, and while being the most visually complex, was also the most fun to do. This was my little treat to have something interesting to work on that applied to one of my hobby interests.
+* **Visual second pass:** Once these pages were made, I wanted to take another pass at the visuals, correcting the overall layout and then adjusting individual pages for a more cohesive visual result. This was also a good point in time to check for mobile design, and adjust structures to be friendly for smaller screens as needs call.
+
+In practice, things were worked on in a more back-and-forth manner, with me working on some parts, then moving forward, then revisiting them momentarily before returning to what I was doing on. Still, this planning gave me a strong basis for how I wanted to approach the problem of building a website.
+
+Along the way, I’d made some additional adjustments not originally planned: for example, the breadcrumb was something I hadn’t initially included in my sketches, but decided very early on would be beneficial to include as it would improve the navigation of the project and character sections. As you can see in comparison to my initial sketches, I’d also ended up moving the thumbnail navigation of the carousels to sit adjacent to the focused image rather than underneath, for a more compact final look. The character descriptions not having a boxed background was also something I hadn’t initially intended, but during build decided looked more clean and open.
+</md-block>
+<section class="gallery-group">
+  <gallery-item image="/src/assets/image/project/caebean/progress1.gif" desc="The very first iteration of the navigation." />
+  <gallery-item image="/src/assets/image/project/caebean/progress2.gif" desc="The gallery image component." />
+  <gallery-item image="/src/assets/image/project/caebean/progress3.gif" desc="Combining the gallery image component with the carousel." />
+  <gallery-item image="/src/assets/image/project/caebean/progress4.gif" desc="Initial pass of the project list." />
+</section>
+<md-block>
+## **LESSONS LEARNED**
+
+**What went well:** I’ve made a website for myself multiple times in the past, first in JQuery, then again with the use of Express.JS, then to Vue2, and then now with Vue3. In the process, I carried forward my understanding from previous projects into the new projects, culminating to what is created here. There are significant changes between Vue2 and Vue3 which I learned during the process of building this site, and though it’s not flawless, I feel happy with what I’ve achieved.
+
+**Areas of improvement:** There are some things with the visual appearance that I feel leave something to be desired. For example, Vue3’s differences in structures resulted in a different setup for modals than I would’ve used for Vue2, and as a part of this, I’d skipped on implementing the logic for a transition upon open and close that I would’ve preferred been present in favor of accomplishing the project sooner. In addition, the visual appearance is a bit limited by the choices I made in terms of styling variable setup– I might come back to the site later to revisit things and utilize \`color-mix\` and other newer features to get a wider breadth of possible color choices without necessarily adding more complexity to my variables.
+
+**Closing thoughts:** I had a lot of fun making the site; production itself went rather quickly, with the bulk of the structure and code having been accomplish within a week, and most of the rest of the development time being spent on fine-tuning and populating content. Despite the project treading upon familiar territory, the new tricks I learned along the way were quite satisfying to implement, and I hope to make similar things in the future.
+</md-block>
+  </main>
+</template>
+<script setup>
+import mdBlock from '@/components/mdBlock.vue'
+import GalleryItem from '@/components/GalleryItem.vue';
+</script>

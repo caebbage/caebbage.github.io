@@ -1,0 +1,38 @@
+{
+  "name": "Hachi Kobayashi",
+  "alt": "小林葉智",
+  "subtitle": "The Spirit of Rot",
+  "color": "#63bfa5",
+  "basics": {
+    "age": "???",
+    "ethnicity": "Japanese",
+    "gender": "???",
+    "pronouns": "she/they/any",
+    "height": "5'2\" / 157cm",
+    "build": "sickly",
+    "MBTI": "XNFJ",
+    "Enneagram": "9w8 / 925",
+    "Tarot": "X - Wheel of Fortune"
+  },
+  "stats": {
+    "STR": 0.3,
+    "DEX": 0.4,
+    "CON": 0.6,
+    "INT": 0.7,
+    "WIS": 1,
+    "CHR": 0.5
+  },
+  "desc": "What happens when you **die**? What happens to your soul? Do you go to Heaven, or Hell, or *nowhere at all*?\n\nHachi knows the answer. It's simple, actually― you remain on this earth, where the worms, the beetles, the fungus, will strip your corpse of its remaining nutrients, and along with it, *you.* Your resting place will not be wherever you drew your last breath― you will continue **on and on**, in the life that begets from you, and from there become things you couldn't hope to imagine.\n\nDecay exists as an extant form of life. Within it, you live **eternal**.",
+  "gallery": [
+    {
+      "icon": "hachi/blumenwalzer-icon.jpg",
+      "url": "chara/hachi/blumenwalzer.jpg",
+      "desc": "Blumenwalzer. (2024)"
+    },
+    {
+      "icon": "hachi/ego-icon.jpg",
+      "url": "illust/hachiiiiiiiiiii.jpg",
+      "desc": "The soul. The EGO. (2024)"
+    }
+  ]
+}

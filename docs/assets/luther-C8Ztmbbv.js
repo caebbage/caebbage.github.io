@@ -1,0 +1,5 @@
+const e="Luther White",t="胡蝶園栄智",n="The Maverick",o="#3a33f5",i={age:"25",ethnicity:"Japanese-German",gender:"male",pronouns:"he/him",height:`5'3" / 160cm`,build:"thin",MBTI:"ESTP",Enneagram:"7w8 / 738",Tarot:"XV - The Devil"},r={STR:.4,DEX:.6,CON:.6,INT:.8,WIS:.3,CHR:.6},h=`Who is Luther White? Perhaps the easier question is― *who isn't he?*
+
+Luther is not a good person. Luther is not loveable, not capable of love. Luther is not strong, nor kind, nor someone worth caring about. Luther was born this way, and is incorrigible. Luther will not be remembered, in the end.
+
+At least, it's easier to believe that this is true.`,a=[{icon:"luther/hhh-icon.jpg",url:"chara/luther/hhh.jpg",desc:"Syndican AU doodle. (2024)"},{icon:"luther/higeki-icon.jpg",url:"illust/higeki.jpg",desc:"Conceptual art. (2024)"},{icon:"luther/yayyyy-icon.jpg",url:"chara/luther/yayyyy.jpg",desc:"Chara illustration. (2024)"}],s={name:e,alt:t,subtitle:n,color:o,basics:i,stats:r,desc:h,gallery:a};export{t as alt,i as basics,o as color,s as default,h as desc,a as gallery,e as name,r as stats,n as subtitle};

@@ -1,0 +1,42 @@
+{
+  "name": "Noah ████",
+  "subtitle": "The White",
+  "color": "#b6b6d1",
+  "basics": {
+    "age": "30",
+    "ethnicity": "Norwegian",
+    "gender": "???",
+    "pronouns": "he/any",
+    "height": "5'8\" / 173cm",
+    "build": "frail",
+    "MBTI": "ISTJ",
+    "Enneagram": "6w5 / 693",
+    "Tarot": "V - The Heirophant"
+  },
+  "stats": {
+    "STR": 0.2,
+    "DEX": 0.8,
+    "CON": 0.7,
+    "INT": 1,
+    "WIS": 0.5,
+    "CHR": 0.5
+  },
+  "desc": "Noah is a _________.\n\nGo on, take your pick. What would you like him to be? Just say the word, and he can become.\n\nWhat? You say he doesn't seem happy about this? Well, that's none of your concern, now is it?\n\nBlank spaces were meant to be filled.",
+  "gallery": [
+    {
+      "icon": "noah/moon-icon.jpg",
+      "url": "chara/noah/moon.jpg",
+      "desc": "Moon-viewing. (2023)"
+    },
+    {
+      "icon": "noah/monet-icon.jpg",
+      "url": "illust/monet.jpg",
+      "desc": "Flower field. (2023)"
+    },
+    {
+      "icon": "noah/gingko-icon.jpg",
+      "url": "illust/gingko.jpg",
+      "desc": "The soul. The EGO. (2022)"
+    }
+  ]
+}

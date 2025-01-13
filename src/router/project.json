@@ -1,0 +1,97 @@
+[
+  {
+    "name": "CAEBEAN.NET",
+    "subtitle": "Personal Website Project ― (2024)",
+    "projpage": "caebean",
+    "desc": "The website you look at now, designed and penned by myself― made as an expression of my skills on all fronts.<br /><br /><b>Contributions;</b> design, programming, writing, art assets.",
+    "tags": ["webdev", "webdesign", "vue.js", "node.js"],
+    "gallery": [
+      {
+        "url": "sprout.png",
+        "desc": "Vector graphic made for site logo."
+      }
+    ]
+  },
+  {
+    "name": "Feywood",
+    "url": "https://alexis-3d.itch.io/feywood",
+    "subtitle": "Capstone Project ― Technical Lead ― (2024)",
+    "projpage": "feywood",
+    "desc": "A narrative-driven platform puzzle demo, made over the course of 15 weeks― a final synthesis of what I had learned up through my undergraduate years.<br /><br /><b>Contributions;</b> Co-producer, technical lead, programmer, UI + VFX artist.",
+    "tags": ["gamedev", "unity", "3D", "C#", "techart", "shaders", "UI/UX", "VFX"],
+    "gallery": [
+      {
+        "url": "vfx1.gif",
+        "desc": "Particle effect god rays for the beginning bedroom."
+      },
+      {
+        "url": "UI1.png",
+        "desc": "Dialogue UI, which I designed the appearance of."
+      },
+      {
+        "url": "vfx3.gif",
+        "desc": "Screen-wipe scene transition effect, created via shader + script rather than unity animation."
+      },
+      {
+        "url": "shaders4.gif",
+        "desc": "The outdoor scene, utilizing a custom sky shader + a custom post-processing shader, as demonstrated here."
+      },
+      {
+        "url": "vfx2.gif",
+        "desc": "Particle effects to indicate pickups."
+      }
+    ]
+  },
+  {
+    "name": "We Blessed Few",
+    "url": "https://koloquials.itch.io/we-blessed-few",
+    "subtitle": "Ludum Dare 55 ― Background Artist ― (2024)",
+    "projpage": "blessed",
+    "desc": "Congrats on your new job as a manager in Heaven's prayer response department! Listen to rumors and the moods of your subordinates and aim for the highest success rate― and don't forget about your QUARTERLY REVIEW!<br /><br /><b>Contributions;</b> Background artist & animator, graphics",
+    "tags": ["gamedev", "unity", "2D", "gameart", "techart"],
+    "gallery": [
+      {
+        "url": "cover.png",
+        "desc": "Cover art, by Rachel Geng."
+      },
+      {
+        "url": "scene2.gif",
+        "desc": "Scene 2 background and subtle cloud animation."
+      },
+      {
+        "url": "scene3.gif",
+        "desc": "Scene 3 background's entrance animation."
+      },
+      {
+        "url": "scene4.gif",
+        "desc": "Scene 4 background's custom glass shader, with sprite darkened for better visibility."
+      }
+    ]
+  },
+  {
+    "name": "Quingstery Dungeon",
+    "subtitle": "Gales End ― Art Director, UI/UX Designer ― (2023) (incomplete)",
+    "projpage": "quingstery",
+    "desc": "Wake up as an adorable Quingee and make your way towards the apex of Galinn Peak!<br /><br /><b>Contributions;</b> Art director, artist, UI designer & artist, programmer, VFX artist",
+    "tags": ["gamedev", "godot", "2D", "gameart", "UI/UX", "VFX"],
+    "gallery": [
+      {
+        "url": "cover.png",
+        "desc": "Cover art. Background by Pai."
+      },
+      
+      {
+        "url": "ui2.png",
+        "desc": "Weather forecast UI."
+      },
+      {
+        "url": "vfx1.gif",
+        "desc": "Item obtainment UI + VFX."
+      },
+      {
+        "url": "vfx3.gif",
+        "desc": "Weather VFX."
+      }
+    ]
+  }
+]

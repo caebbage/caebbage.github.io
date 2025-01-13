@@ -1,0 +1,144 @@
+@import './base.css';
+
+#content {
+  --trans: 0.3s ease;
+}
+
+#content.dark {
+  --accent: #82b057;
+  --base: #242121;
+  --base-1: #2f2b2b;
+  --base-2: #3a3535;
+  --base-3: #534d4d;
+  --text: #d3d3d3;
+  --text-1: #bdbdbd;
+  --text-2: #818181;
+  --text-3: #505050;
+  --text-bold: #ffffff;
+}
+
+#content.light {
+  --accent: #567b05;
+  --base: #EEE;
+  --base-1: #e2e2e1;
+  --base-2: #d7d6d6;
+  --base-3: #c5c7c4;
+  --text: #3b3c39;
+  --text-1: #666c5b;
+  --text-2: #808579;
+  --text-3: #c9d2c3;
+  --text-bold: #181817;
+}
+
+#content {
+  padding-top: 4.5rem;
+  background: var(--base);
+  transition: var(--trans);
+}
+
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--accent);
+  padding: 0.25rem 0.375rem;
+  transition: var(--trans);
+}
+
+b, strong {color: var(--text-bold); transition: var(--trans)}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  color: var(--text);
+  transition: var(--trans);
+}
+
+#project > section {
+  max-width: 1150px;
+  margin: auto;
+}
+
+#project section p {
+  padding-left: 1rem;
+  padding-left: 1rem;
+  margin: 0 auto 1rem;
+}
+
+.adjacent {
+  display: flex;
+  gap: 2rem;
+}
+
+.adjacent > .gallery-group {
+  flex-flow: column nowrap;
+  max-width: clamp(80px, 40%, 250px);
+}
+
+@media (max-width: 700px) {
+  .adjacent {
+    display: block;
+  }
+
+  .adjacent > .gallery-group {
+    flex-flow: row wrap;
+    max-width: none;
+  }
+}
+
+#project section ul,  #project section ol,  #project section li {
+  padding-bottom: 0.5rem;
+}
+
+
+#project section + section {
+  margin-top: 1rem;
+}
+
+.gallery-group {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem;
+  max-width: 100%;
+}
+
+.gallery-group .gallery-item {
+  min-width: clamp(100px, 20%, 200px)
+}
+
+main h1, main h2, main h3, main h4 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 125%;
+  font-weight: bold;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.intro {
+  padding: 2.5rem 2rem 1.5rem;
+}
+
+.intro h1 {
+  text-align: center;
+  font: 700 3rem/125% 'Poppins', sans-serif;
+  color: var(--accent);
+}
+
+.intro p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.intro p:first-of-type {
+  padding: 2rem 0 0;
+}
+.intro p:last-of-type {
+  padding: 0 0 2rem;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: var(--accent);
+    color: var(--text-bold);
+  }
+}
