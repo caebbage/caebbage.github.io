@@ -7,8 +7,7 @@
 # Hello.
 I'm **Cae Wang**!
 
-With a lifelong passion for both art and programming, I hope to bring these two skills forward wherever I go
-next,
+With a lifelong passion for both art and programming, I hope to bring these two skills forward wherever I go next,
 to empower the people I work with.
         </md-block>
         <md-block>
