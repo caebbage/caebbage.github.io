@@ -1,5 +1,35 @@
 [
   {
+    "name": "Moments Like Ice",
+    "url": "https://koloquials.itch.io/moments-like-ice",
+    "subtitle": "Global Game Jam ― Technical Artist ― (2025)",
+    "projpage": "moments-like-ice",
+    "desc": "Your childhood best friend is back from magic university for the week, and you've dearly missed her...there's some feelings you never admitted before she moved away... But you can use your magic to influence her thoughts during your chats about her time in the big city! Maybe coming home's what's best for her?<br /><br /><i>If only things could last.</i><br /><br /><b>Contributions;</b> shaders, animation, VFX, post-processing, implementation",
+    "tags": ["gamedev", "unity", "2D", "gameart", "techart", "shaders", "VFX"],
+    "gallery": [
+      {
+        "url": "banner.png",
+        "desc": "Banner, drawn by <i>Allena \"Ena\" Zhu</i>."
+      },
+      {
+        "url": "bubbleidle.gif",
+        "desc": "Bubble shader."
+      },
+      {
+        "url": "bubblespawn.gif",
+        "desc": "A bubble appearing."
+      },
+      {
+        "url": "linecircle.gif",
+        "desc": "Cirling a bubble to select."
+      },
+      {
+        "url": "bubblefreeze.gif",
+        "desc": "The bubble freezing."
+      }
+    ]
+  },
+  {
     "name": "CAEBEAN.NET",
     "subtitle": "Personal Website Project ― (2024)",
     "projpage": "caebean",

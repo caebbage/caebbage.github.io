@@ -4,6 +4,7 @@
 # WE BLESSED FEW
 
 Team of 11 people, made during **Ludum Dare 55: Summoning** in under 72 hours.
+[Available to play in-browser.](https://koloquials.itch.io/we-blessed-few)
 
 Handled background art and animation, and visual direction.
 </md-blocK>
@@ -13,7 +14,7 @@ Handled background art and animation, and visual direction.
   <gallery-item image="/src/assets/image/project/blessed/scene4.gif" desc="Scene 4's custom stained-glass shader, with colors adjusted for better visibility." />
 </section>
 <md-block>
-## **Lessons Learned**
+## LESSONS LEARNED
 
 **What went well:** This was my first game jam experience working with other people with formal pipeline experience. This was also my first time properly working with Unity’s animation system, and for what it is I’m happy with what I accomplished.
 

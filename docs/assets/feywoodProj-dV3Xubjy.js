@@ -1,7 +1,8 @@
-import{c as s,a as o,w as i,_ as n,b as t,d as r,o as l,e as a}from"./index-Ttwsvxux.js";const d={id:"project"},h={class:"gallery-group"},m={class:"gallery-group"},c={class:"gallery-group"},w={__name:"feywoodProj",setup(u){return(g,e)=>(l(),s("main",d,[o(n,{class:"intro"},{default:i(()=>e[0]||(e[0]=[t(`\r
+import{c as s,a as o,w as i,_ as n,b as t,d as r,o as l,e as a}from"./index-iYWuYMyK.js";const d={id:"project"},h={class:"gallery-group"},m={class:"gallery-group"},c={class:"gallery-group"},w={__name:"feywoodProj",setup(u){return(g,e)=>(l(),s("main",d,[o(n,{class:"intro"},{default:i(()=>e[0]||(e[0]=[t(`\r
 # FEYWOOD\r
 \r
 _FEYWOOD_ is a narrative-focused puzzle platformer game demo. It's your first day at your new home-- what you and your sister don't know, is that beyond the forest border lay things you could never imagine...\r
+[Available to play on Windows.](https://alexis-3d.itch.io/feywood)\r
 `)])),_:1}),e[11]||(e[11]=t()),o(n,{style:{"max-width":"500px",margin:"auto"}},{default:i(()=>e[1]||(e[1]=[t(`\r
 **Genre:** Puzzle, Platformer, Narrative\r
 **Platform:** PC, Single-Player\r
@@ -11,13 +12,13 @@ _FEYWOOD_ is a narrative-focused puzzle platformer game demo. It's your first da
 **Contributions:** Project director, Technical & VFX Artist\r
 **Duration:** Feb 2024 - May 2024; ~15 weeks\r
 `)])),_:1}),e[12]||(e[12]=t()),o(n,null,{default:i(()=>e[2]||(e[2]=[t(`\r
-## **THE DESIGN PROCESS**\r
+## THE DESIGN PROCESS\r
 \r
 Feywood was a project pitched not by myself, but by our team’s leader, Alexis Hays. Hence, my goal was to take forward her initial loose pitch into a functional project.\r
 \r
 The original idea was to have a narrative and visually-focused game akin to Little Nightmares in execution; a story which delves into horror, with a mostly side-scrolling format. Early discussions resulted in the project being 3D-based due to limitations that come with having to 2D animate brand new art for a variety of unique interactions, combined with our extremely limited art team size. From there, a couple of objectives came to mind.\r
 \r
-### **MECHANICS**\r
+### MECHANICS\r
 \r
 A game needed mechanics, not only for the function of being a game, but to inform our programming team what mechanics needed to be planned and scripted, as well as how visuals look in relation to said game. I organized a team discussion tackling this topic, and in the end we game to the following conclusions:\r
 \r
@@ -31,13 +32,13 @@ A game needed mechanics, not only for the function of being a game, but to infor
 \r
 In the end, a couple of these features had to be scrapped for the sake of accomplishing a working, whole product within the limited period of time we had. Because we’d started this project in the second semester rather than first, we had about half the time to attempt to deliver something with a focus on heavy visual polish compared to other teams.\r
 `)])),_:1}),e[13]||(e[13]=t()),o(n,null,{default:i(()=>e[3]||(e[3]=[t(`\r
-### **VISUAL DESIGN**\r
+### VISUAL DESIGN\r
 \r
 Since this game was narrative-focused, visual design would have to be heavily emphasized; the gameplay is a vehicle to communicate the overall story, and the wrong visual feel could hamper the feel of the story itself. Though our team leader had a general idea of what she wanted, the nitty gritty goals were something that she was unfamiliar with identifying. As someone who has had prior experience with collaborative game creation as well as team collaboration in general, I picked up the role of direction, tasking our leader to create documentation for the overall visual feel of the game while I handled more technical aspects of visuals.\r
 \r
 Thus, I handled design of UI elements, aspects of overhead visual design, as well as VFX and post-processing.\r
 \r
-### **GRAPHICS**\r
+### GRAPHICS\r
 \r
 Though adjacent to the overall visual direction, the graphics were a slightly separate matter that I handled on my own. In choosing our rendering pipeline for the project, I landed upon URP in part because our stylistic choices were not high enough fidelity to warrant the extra bells and whistles of HDRP, but also because there were certain choices I want to make with the post-processing that were more difficult to accomplish in HDRP.\r
 \r
@@ -47,13 +48,13 @@ In addition, there was initially planned to be an extra depth to the house, with
 \r
 Visual effects were also my realm of work; particle effects in the game were my doing, including the god rays present in the starting room at the beginning of the game, the item pickup sparkles, as well as the fireflies in the outdoor area.\r
 \r
-### **USER INTERFACE**\r
+### USER INTERFACE\r
 \r
 In addition to graphical elements, I was tasked with handling the visuals of the user interface. UI design for the indicator for interactions, dialogue box, and start and pause menus were made by me, with structure created by teammates and stylized either with my direction or by myself.\r
 \r
 In addition, I created custom script shaders to handle scene transitions as well as hide/aggro indicators. Rather than having these elements be handled by Unity animation, I wanted to manage them through scripting, and so created helper scripts to handle the manipulation of these shaders for the use of our engineers.\r
 `)])),_:1}),e[14]||(e[14]=t()),r("section",h,[o(a,{image:"/src/assets/image/project/feywood/UI1.png",desc:"The dialogue UI."}),e[4]||(e[4]=t()),o(a,{image:"/src/assets/image/project/feywood/shader1.gif",desc:"Custom shader for distance-based fade."}),e[5]||(e[5]=t()),o(a,{image:"/src/assets/image/project/feywood/shader2.gif",desc:"Custom shader for screen transitions, with multiple options."})]),e[15]||(e[15]=t()),r("section",m,[o(a,{image:"/src/assets/image/project/feywood/shader3.gif",desc:"Custom sky shader with a dynamic color gradient."}),e[6]||(e[6]=t()),o(a,{image:"/src/assets/image/project/feywood/shader4.gif",desc:"Custom post-processing shader to give a subtle gradient glow."}),e[7]||(e[7]=t()),o(a,{image:"/src/assets/image/project/feywood/shader5.PNG",desc:"Modified shader to allow character visibility while behind objects."})]),e[16]||(e[16]=t()),r("section",c,[o(a,{image:"/src/assets/image/project/feywood/vfx1.gif",desc:"God rays particle setup."}),e[8]||(e[8]=t()),o(a,{image:"/src/assets/image/project/feywood/vfx2.gif",desc:"Particle VFX to attract players' attention to important items."}),e[9]||(e[9]=t()),o(a,{image:"/src/assets/image/project/feywood/vfx3.gif",desc:"Screen transition VFX, utilizing the custom shader via script."})]),e[17]||(e[17]=t()),o(n,null,{default:i(()=>e[10]||(e[10]=[t(`\r
-## **LESSONS LEARNED**\r
+## LESSONS LEARNED\r
 \r
 **What went well:** For a project as ambitious as this, it’s certainly a commendable feat that we were able to have a working demo made in the span of under 15 weeks. I’m very satisfied with the work I did for the project, not only on its own visual merits, but how it supports the work of my teammates.\r
 \r

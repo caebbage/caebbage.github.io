@@ -38,7 +38,7 @@ The last major concern was the characters page– a little bonus I wanted to add
       <gallery-item image="/src/assets/image/project/caebean/site3.jpg" desc="Planning diagrams for the character display." />
     </section>
 <md-block>
-## **BUILDING A WEBSITE: bringing the page to life**
+## BUILDING A WEBSITE: bringing the page to life
 
 I had a general plan of attack to the order in which I approached each different components of the website.
 
@@ -60,7 +60,7 @@ Along the way, I’d made some additional adjustments not originally planned: fo
   <gallery-item image="/src/assets/image/project/caebean/progress4.gif" desc="Initial pass of the project list." />
 </section>
 <md-block>
-## **LESSONS LEARNED**
+## LESSONS LEARNED
 
 **What went well:** I’ve made a website for myself multiple times in the past, first in JQuery, then again with the use of Express.JS, then to Vue2, and then now with Vue3. In the process, I carried forward my understanding from previous projects into the new projects, culminating to what is created here. There are significant changes between Vue2 and Vue3 which I learned during the process of building this site, and though it’s not flawless, I feel happy with what I’ve achieved.
 

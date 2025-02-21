@@ -103,7 +103,7 @@ main {
 }
 
 .gallery-group .gallery-item {
-  min-width: clamp(100px, 20%, 200px)
+  min-width: clamp(100px, 20%, 150px)
 }
 
 main h1, main h2, main h3, main h4 {
@@ -134,6 +134,11 @@ main h1, main h2, main h3, main h4 {
 }
 .intro p:last-of-type {
   padding: 0 0 2rem;
+}
+
+blockquote {
+  background-color: var(--base-1);
+  text-align: left;
 }
 
 @media (hover: hover) {

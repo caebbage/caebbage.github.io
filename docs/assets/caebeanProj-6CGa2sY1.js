@@ -1,4 +1,4 @@
-import{c as r,d as i,b as t,a,w as n,_ as s,o as l,e as o}from"./index-Ttwsvxux.js";const h={id:"project"},d={class:"gallery-group"},u={class:"gallery-group"},p={__name:"caebeanProj",setup(c){return(g,e)=>(l(),r("main",h,[e[9]||(e[9]=i("section",{class:"intro"},[i("h1",null,"CAEBEAN.NET"),t(),i("p",null,"A portfolio site project.")],-1)),e[10]||(e[10]=t()),a(s,{style:{"max-width":"500px",margin:"auto"}},{default:n(()=>e[0]||(e[0]=[t(`\r
+import{c as r,d as i,b as t,a,w as n,_ as s,o as l,e as o}from"./index-iYWuYMyK.js";const h={id:"project"},d={class:"gallery-group"},u={class:"gallery-group"},p={__name:"caebeanProj",setup(c){return(g,e)=>(l(),r("main",h,[e[9]||(e[9]=i("section",{class:"intro"},[i("h1",null,"CAEBEAN.NET"),t(),i("p",null,"A portfolio site project.")],-1)),e[10]||(e[10]=t()),a(s,{style:{"max-width":"500px",margin:"auto"}},{default:n(()=>e[0]||(e[0]=[t(`\r
 **Skills applied:** Web design & development (HTML, CSS, Node.JS, Vue3)\r
 \r
 **Credits:**\r
@@ -25,7 +25,7 @@ The next point of concern was the projects page– I had a basis for it from my 
 \r
 The last major concern was the characters page– a little bonus I wanted to add to make the project more fun for me, and also to have a space to be more experimental with the layout of things. I’d made a character page for a previous iteration of my personal site which is why the sketch is rather rough, but I was hoping for something a little cleaner, and easier to put together– for example, my original site, the character in the background was faded out via the actual file data, so I wanted to use a mask-image instead this time, to be more adjustable.\r
     `)])),_:1}),e[12]||(e[12]=t()),i("section",d,[a(o,{image:"/src/assets/image/project/caebean/site1.jpg",desc:"Planning diagrams for site structure."}),e[2]||(e[2]=t()),a(o,{image:"/src/assets/image/project/caebean/site2.jpg",desc:"Planning diagrams for the projects page list."}),e[3]||(e[3]=t()),a(o,{image:"/src/assets/image/project/caebean/site3.jpg",desc:"Planning diagrams for the character display."})]),e[13]||(e[13]=t()),a(s,null,{default:n(()=>e[4]||(e[4]=[t(`\r
-## **BUILDING A WEBSITE: bringing the page to life**\r
+## BUILDING A WEBSITE: bringing the page to life\r
 \r
 I had a general plan of attack to the order in which I approached each different components of the website.\r
 \r
@@ -40,7 +40,7 @@ In practice, things were worked on in a more back-and-forth manner, with me work
 \r
 Along the way, I’d made some additional adjustments not originally planned: for example, the breadcrumb was something I hadn’t initially included in my sketches, but decided very early on would be beneficial to include as it would improve the navigation of the project and character sections. As you can see in comparison to my initial sketches, I’d also ended up moving the thumbnail navigation of the carousels to sit adjacent to the focused image rather than underneath, for a more compact final look. The character descriptions not having a boxed background was also something I hadn’t initially intended, but during build decided looked more clean and open.\r
 `)])),_:1}),e[14]||(e[14]=t()),i("section",u,[a(o,{image:"/src/assets/image/project/caebean/progress1.gif",desc:"The very first iteration of the navigation."}),e[5]||(e[5]=t()),a(o,{image:"/src/assets/image/project/caebean/progress2.gif",desc:"The gallery image component."}),e[6]||(e[6]=t()),a(o,{image:"/src/assets/image/project/caebean/progress3.gif",desc:"Combining the gallery image component with the carousel."}),e[7]||(e[7]=t()),a(o,{image:"/src/assets/image/project/caebean/progress4.gif",desc:"Initial pass of the project list."})]),e[15]||(e[15]=t()),a(s,null,{default:n(()=>e[8]||(e[8]=[t(`\r
-## **LESSONS LEARNED**\r
+## LESSONS LEARNED\r
 \r
 **What went well:** I’ve made a website for myself multiple times in the past, first in JQuery, then again with the use of Express.JS, then to Vue2, and then now with Vue3. In the process, I carried forward my understanding from previous projects into the new projects, culminating to what is created here. There are significant changes between Vue2 and Vue3 which I learned during the process of building this site, and though it’s not flawless, I feel happy with what I’ve achieved.\r
 \r

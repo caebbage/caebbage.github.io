@@ -4,6 +4,7 @@
 # FEYWOOD
 
 _FEYWOOD_ is a narrative-focused puzzle platformer game demo. It's your first day at your new home-- what you and your sister don't know, is that beyond the forest border lay things you could never imagine...
+[Available to play on Windows.](https://alexis-3d.itch.io/feywood)
 </md-blocK>
 <md-block style="max-width: 500px; margin: auto">
 **Genre:** Puzzle, Platformer, Narrative
@@ -15,13 +16,13 @@ _FEYWOOD_ is a narrative-focused puzzle platformer game demo. It's your first da
 **Duration:** Feb 2024 - May 2024; ~15 weeks
 </md-blocK>
 <md-block>
-## **THE DESIGN PROCESS**
+## THE DESIGN PROCESS
 
 Feywood was a project pitched not by myself, but by our team’s leader, Alexis Hays. Hence, my goal was to take forward her initial loose pitch into a functional project.
 
 The original idea was to have a narrative and visually-focused game akin to Little Nightmares in execution; a story which delves into horror, with a mostly side-scrolling format. Early discussions resulted in the project being 3D-based due to limitations that come with having to 2D animate brand new art for a variety of unique interactions, combined with our extremely limited art team size. From there, a couple of objectives came to mind.
 
-### **MECHANICS**
+### MECHANICS
 
 A game needed mechanics, not only for the function of being a game, but to inform our programming team what mechanics needed to be planned and scripted, as well as how visuals look in relation to said game. I organized a team discussion tackling this topic, and in the end we game to the following conclusions:
 
@@ -36,13 +37,13 @@ A game needed mechanics, not only for the function of being a game, but to infor
 In the end, a couple of these features had to be scrapped for the sake of accomplishing a working, whole product within the limited period of time we had. Because we’d started this project in the second semester rather than first, we had about half the time to attempt to deliver something with a focus on heavy visual polish compared to other teams.
 </md-block>
 <md-block>
-### **VISUAL DESIGN**
+### VISUAL DESIGN
 
 Since this game was narrative-focused, visual design would have to be heavily emphasized; the gameplay is a vehicle to communicate the overall story, and the wrong visual feel could hamper the feel of the story itself. Though our team leader had a general idea of what she wanted, the nitty gritty goals were something that she was unfamiliar with identifying. As someone who has had prior experience with collaborative game creation as well as team collaboration in general, I picked up the role of direction, tasking our leader to create documentation for the overall visual feel of the game while I handled more technical aspects of visuals.
 
 Thus, I handled design of UI elements, aspects of overhead visual design, as well as VFX and post-processing.
 
-### **GRAPHICS**
+### GRAPHICS
 
 Though adjacent to the overall visual direction, the graphics were a slightly separate matter that I handled on my own. In choosing our rendering pipeline for the project, I landed upon URP in part because our stylistic choices were not high enough fidelity to warrant the extra bells and whistles of HDRP, but also because there were certain choices I want to make with the post-processing that were more difficult to accomplish in HDRP.
 
@@ -52,7 +53,7 @@ In addition, there was initially planned to be an extra depth to the house, with
 
 Visual effects were also my realm of work; particle effects in the game were my doing, including the god rays present in the starting room at the beginning of the game, the item pickup sparkles, as well as the fireflies in the outdoor area.
 
-### **USER INTERFACE**
+### USER INTERFACE
 
 In addition to graphical elements, I was tasked with handling the visuals of the user interface. UI design for the indicator for interactions, dialogue box, and start and pause menus were made by me, with structure created by teammates and stylized either with my direction or by myself.
 
@@ -75,7 +76,7 @@ In addition, I created custom script shaders to handle scene transitions as well
   <gallery-item image="/src/assets/image/project/feywood/vfx3.gif" desc="Screen transition VFX, utilizing the custom shader via script." />
 </section>
 <md-block>
-## **LESSONS LEARNED**
+## LESSONS LEARNED
 
 **What went well:** For a project as ambitious as this, it’s certainly a commendable feat that we were able to have a working demo made in the span of under 15 weeks. I’m very satisfied with the work I did for the project, not only on its own visual merits, but how it supports the work of my teammates.
 
